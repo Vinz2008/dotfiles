@@ -1,12 +1,7 @@
 syntax enable
 call plug#begin()
 Plug 'preservim/nerdtree'
-Plug 'ncm2/ncm2'
-Plug 'HansPinckaers/ncm2-jedi'
-Plug 'ncm2/ncm2-bufword'
 Plug 'itchyny/lightline.vim'
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
 Plug 'neovim/nvim-lspconfig'
 Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
 Plug 'dracula/vim', { 'as': 'dracula' } 
