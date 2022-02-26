@@ -11,6 +11,7 @@ Plug 'liuchengxu/vim-clap'
 Plug 'ahmedkhalf/project.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 colorscheme dracula
 set termguicolors
