@@ -1,7 +1,6 @@
 syntax enable
 call plug#begin()
 Plug 'preservim/nerdtree'
-Plug 'roxma/nvim-yarp'
 Plug 'ncm2/ncm2'
 Plug 'HansPinckaers/ncm2-jedi'
 Plug 'ncm2/ncm2-bufword'
