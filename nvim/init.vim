@@ -8,7 +8,6 @@ Plug 'ncm2/ncm2-bufword'
 Plug 'itchyny/lightline.vim'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'neovim/nvim-lspconfig'
 Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
 Plug 'dracula/vim', { 'as': 'dracula' } 
