@@ -7,7 +7,6 @@ Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
 Plug 'dracula/vim', { 'as': 'dracula' } 
 Plug 'ellisonleao/glow.nvim'
 Plug 'glepnir/dashboard-nvim'
-Plug 'kevinhwang91/nvim-hlslens'
 Plug 'liuchengxu/vim-clap'
 Plug 'ahmedkhalf/project.nvim'
 Plug 'nvim-lua/plenary.nvim'
