@@ -1,4 +1,13 @@
 syntax enable
+if empty(glob('/usr/share/nvim/runtime/autoload/plug.vim'))
+   silent !curl -fLo /usr/share/nvim/runtime/autoload/plug.vim --create-dirs
+     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+   endif
+
+autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+ \| PlugInstall --sync | source $MYVIMRC
+ \| endif
+
 call plug#begin()
 Plug 'preservim/nerdtree'
 Plug 'itchyny/lightline.vim'
