@@ -1,4 +1,5 @@
 syntax enable
+set nocompatible
 if empty(glob('/usr/share/nvim/runtime/autoload/plug.vim'))
    silent !curl -fLo /usr/share/nvim/runtime/autoload/plug.vim --create-dirs
      \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -22,6 +23,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'mattn/emmet-vim'
+Plug 'sheerun/vim-polyglot'
 call plug#end()
 colorscheme dracula
 set termguicolors
