@@ -13,7 +13,7 @@ neofetch
 alias fullscreen='wmctrl -ir `xdotool getwindowfocus` -b toggle,fullscreen'
 alias ls='ls --color'
 alias meteo='curl wttr.in'
-alias pass-manager="~/.pass-manager/launch.sh"
+alias clear="clear && source ~/.zshrc"
 # Install Ruby Gems to ~/gems
 export GEM_HOME="$HOME/gems"
 export PATH="$HOME/gems/bin:$PATH"
