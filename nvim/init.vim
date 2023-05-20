@@ -74,3 +74,5 @@ let g:python_host_prog='/usr/bin/python2'
 
 map <C-n> :NERDTreeToggle<CR>
 let g:lightline = { 'colorscheme': 'dracula' }
+let g:dracula_colorterm = 0
+"hi Normal guibg=NONE ctermbg=NONE " if you want to have nvim work with terminal transparency
