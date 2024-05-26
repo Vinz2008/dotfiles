@@ -36,6 +36,10 @@ exec --no-startup-id picom
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
+exec --no-startup-id /usr/lib/polkit-kde-authentication-agent-1
+
+exec --no-startup-id blueman-applet &
+
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
@@ -229,3 +233,7 @@ exec --no-startup-id i3-battery-popup -n
   client.placeholder      #000000 #0c0c0c #ffffff #000000 
 
   client.background       #28262c
+
+
+exec xinput set-prop 'PIXA3854:00 093A:0274 Touchpad' 'libinput Natural Scrolling Enabled' 1
+exec xcalib -d :0 /usr/share/color/icc/colord/framework_amd.icm
