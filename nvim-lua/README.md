@@ -34,3 +34,8 @@ Leader Key (See start of file) + ? : search recently opened files
 :Git  
 
 :Gdelete : Equivalent to "git rm"
+
+
+
+# TODO 
+https://stackoverflow.com/a/53668
