@@ -166,14 +166,14 @@ require('lazy').setup({
     },
   },
 
-  {
+  --{
     -- Add indentation guides even on blank lines
-    'lukas-reineke/indent-blankline.nvim',
+    -- 'lukas-reineke/indent-blankline.nvim',
     -- Enable `lukas-reineke/indent-blankline.nvim`
     -- See `:help ibl`
-    main = 'ibl',
-    opts = {},
-  },
+    --main = 'ibl',
+    --opts = {},
+  --},
 
   -- "gc" to comment visual regions/lines
   { 'numToStr/Comment.nvim', opts = {} },
@@ -267,6 +267,11 @@ require('lazy').setup({
 -- [[ Setting options ]]
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
+
+vim.o.expandtab = true      -- Use spaces instead of tabs
+vim.o.shiftwidth = 4        -- Indent width = 4
+vim.o.tabstop = 4           -- A <Tab> counts as 4 spaces
+vim.o.softtabstop = 4       -- <Tab> in insert mode = 4 spaces
 
 -- Set highlight on search
 vim.o.hlsearch = false
